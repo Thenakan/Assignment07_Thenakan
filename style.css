@@ -201,3 +201,38 @@ h2{
 p{
     color: #c8b19d;
 }
+
+
+
+
+
+
+/* brands */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+h2{
+    text-align: center;
+    color: #fff;
+    margin-top: 200px;
+}
+.trusted-brands{
+    text-align: center;
+    padding: 20px;
+  
+}
+
+.brands-container{
+    background-color: #fff;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    
+}
+
