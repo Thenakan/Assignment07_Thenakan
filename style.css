@@ -232,7 +232,43 @@ h2{
     justify-content: center;
     align-items: center;
     gap: 20px;
-    flex-wrap: wrap;
+    flex-wrap: wrap;   
+}
+
+
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    /* background-color: #333; */
+    color: #fff;
+}
+
+.gallery-section{
+    text-align: center;
+    padding: 20px;
     
 }
+
+h2{
+    margin-bottom: 20px;
+    color: #fff;
+    text-transform: uppercase;
+    position: relative;
+}
+
+
+.gallery-container{
+    display: grid;
+   grid-column: auto;
+    gap: 15px;
+    padding: 10px;
+}
+
+
 
