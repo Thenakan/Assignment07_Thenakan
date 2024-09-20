@@ -345,4 +345,12 @@ display: flex;
 }
 
 
+.footer{
+    background-color: #a9723b;
+    padding: 20px;
+    text-align: center;
+    color: black;
+    width: 100%;
+}
+
 
