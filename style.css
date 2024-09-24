@@ -225,7 +225,7 @@ h2{
   
 }
 
-.brands-container{
+.brand-container{
     background-color: #fff;
     display: flex;
     flex-direction: row;
@@ -233,6 +233,9 @@ h2{
     align-items: center;
     gap: 20px;
     flex-wrap: wrap;   
+}
+.brand-container img{
+    width: 250px;
 }
 
 
@@ -263,11 +266,15 @@ h2{
 }
 
 
-.gallery-container{
+.gallery-container {
     display: grid;
    grid-column: auto;
     gap: 15px;
     padding: 10px;
+   
+}
+.grid-item img{
+    width: 400px;
 }
 
 
